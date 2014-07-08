@@ -1,0 +1,169 @@
+body {
+  font-family: sans-serif;
+  background: #2c3e50; 
+  color: #ecf0f1;
+  line-height: 1.5em;
+}
+
+a {
+  color: inherit;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  padding: 20px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header > p {
+  float: right;
+}
+
+h1 {
+  float: left;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+.below {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.blurb {
+  padding: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+/*
+.projects-link {
+  padding: 20px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 24px;
+  background: #2980b9;
+  border-bottom: 2px solid gray;
+}
+*/
+
+.profile-image-wrapper {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+body > a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.social-media {
+  float: right;
+}
+
+.social-media > li {
+  float: left;
+}
+
+.social-media > li > a {
+  display: block;
+  padding: 5px 10px;
+}
+
+.profile-image {
+  float: left;
+  max-width: 25%;
+}
+
+.tagline {
+  float: right;
+  font-size: 48px;
+  width: 70%;
+  line-height: 1.5em;
+  color: #bdc3c7; 
+}
+
+.tagline > strong {
+  font-size: 1.1em;
+  color: #ecf0f1;
+}
+
+.projects {
+  clear: both;
+  margin: 20px 0;
+}
+
+.project {
+  float: left;
+}
+
+.project-link {
+  width: 276px;
+  padding: 20px;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.project-link:hover {
+  background: #34495e;
+  color: white;
+}
+
+.project-link > img {
+  max-width: 100%;
+  border: 1px solid #ecf0f1;
+  box-shadow: 0 0 2px black;
+  margin-bottom: 20px;
+}
+
+.project-link > h3 {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  right: 18px;
+  text-align: center;
+  background: black;
+  opacity: 0.6;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.project-link > p {
+}
