@@ -111,9 +111,8 @@ body > a {
 }
 
 .tagline {
-  float: right;
+  /* float: right; */
   font-size: 64px;
-  width: 70%;
   line-height: 1.1em;
   color: #bdc3c7; 
   font-family: 'Share', sans-serif;
