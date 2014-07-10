@@ -78,6 +78,7 @@ h2 {
   width: 960px;
   padding: 20px;
   margin: 0 auto;
+  min-height: 100%;
 }
 
 body > a {
