@@ -98,11 +98,11 @@ body > a {
 
 .social-media > li {
   float: left;
+  display: block;
+  padding: 5px 10px;
 }
 
 .social-media > li > a {
-  display: block;
-  padding: 5px 10px;
 }
 
 .profile-image {
