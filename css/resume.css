@@ -13,6 +13,7 @@
   left: 50%;
   top: 100px;
   z-index: 9998;
+  display: none;
 }
 
 .resume ul, .resume p {
