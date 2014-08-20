@@ -1,0 +1,89 @@
+.resume .overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.resume {
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  z-index: 9998;
+}
+
+.resume ul, .resume p {
+  margin-bottom: 1em;
+}
+
+.resume h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.resume h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.resume address {
+  float: right;
+}
+
+.resume .paper {
+  position: relative;
+  margin-left: -430px;
+  width: 860px;
+  padding: 50px;
+  background: #fff;
+  z-index: 9999;
+  box-shadow: 0 0 3px #555;
+}
+
+.resume-buttons {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.resume-buttons li {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.resume-buttons li:last-child {
+  margin-right: 0;
+}
+
+.resume-buttons li:hover {
+  color: black;
+}
+
+.resume-job-list {
+  list-style: disc inside;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.resume-links-list li {
+  display: inline;
+}
+
+.resume-inline-list li {
+  display: inline;
+}
+
+.resume-inline-list li:after {
+  content: ",";
+}
+
+.resume-inline-list li:last-child:before {
+  content: "and ";
+}
+
+.resume-inline-list li:last-child:after {
+  content: "";
+}
